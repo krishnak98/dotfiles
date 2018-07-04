@@ -93,3 +93,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias g++="g++ -std=c++14"
+alias gts='git status'
+alias gtp='git pull origin'
+alias gtps='git push origin'
+alias gta='git add -A'
+alias gtc='git commit -m'
+alias gtco='git checkout'
+alias gtcn='git checkout -b '
+alias gtcd='gtco development && gtp development'
+alias gtcf='git checkout -- '
+alias gtm='git merge --no-ff '
+alias gtd='git diff'
+
